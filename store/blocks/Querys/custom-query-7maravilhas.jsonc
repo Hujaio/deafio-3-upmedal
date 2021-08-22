@@ -1,0 +1,30 @@
+{
+    "search-result-layout.customQuery#7maravilhas": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "mapField": "fq",
+                "queryField": "7maravilhas",
+                "maxItemsPerPage": 8
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#7maravilhas"
+        ]
+    },
+    "search-result-layout.desktop#7maravilhas": {
+        "blocks": [
+            "search-content#7maravilhas"
+        ],
+        "props": {
+            "preventRouteChange": true //para n mudar de rota
+        }
+    },
+    "search-content#7maravilhas": {
+        "blocks": [
+            "gallery#lb",
+            "not-found"
+        ]
+    }
+}

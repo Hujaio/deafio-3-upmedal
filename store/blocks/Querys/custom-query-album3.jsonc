@@ -1,0 +1,30 @@
+{
+    "search-result-layout.customQuery#album3": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "mapField": "fq",
+                "queryField": "kit-upmedal/album3",
+                "maxItemsPerPage": 8
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#album3"
+        ]
+    },
+    "search-result-layout.desktop#album3": {
+        "blocks": [
+            "search-content#album3"
+        ],
+        "props": {
+            "preventRouteChange": true //para n mudar de rota
+        }
+    },
+    "search-content#album3": {
+        "blocks": [
+            "gallery#lb",
+            "not-found"
+        ]
+    }
+}

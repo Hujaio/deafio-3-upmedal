@@ -1,0 +1,30 @@
+{
+    "search-result-layout.customQuery#guerreiros": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "mapField": "ft",
+                "queryField": "Guerreiros",
+                "maxItemsPerPage": 8
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#guerreiros"
+        ]
+    },
+    "search-result-layout.desktop#guerreiros": {
+        "blocks": [
+            "search-content#guerreiros"
+        ],
+        "props": {
+            "preventRouteChange": true //para n mudar de rota
+        }
+    },
+    "search-content#guerreiros": {
+        "blocks": [
+            "gallery#lb",
+            "not-found"
+        ]
+    }
+}

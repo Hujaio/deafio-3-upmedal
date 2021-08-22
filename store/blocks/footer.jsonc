@@ -1,0 +1,90 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "footer-layout.mobile":{
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "logo#footer1",
+      "logo#footer2",
+      "logo#footer3",
+      "logo#footer4"
+    ]
+  },
+  "logo#footer1": {
+    "props": {
+      "url": "https://img.icons8.com/windows/452/joining-queue.png",
+      "href": "https://hujaio--hiringcoders2021.myvtex.com/login",
+      "width": "70px"
+    }
+  },
+  "logo#footer2": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1017/1017553.png",
+      "href": "https://hujaio--hiringcoders2021.myvtex.com",
+      "width": "70px"
+    }
+  },
+  "logo#footer3": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/126/126510.png",
+      "href": "https://hujaio--hiringcoders2021.myvtex.com/checkout/#/cart",
+      "width": "70px"
+    }
+  },
+  "logo#footer4": {
+    "props": {
+      "url": "https://img.icons8.com/ios/452/whatsapp--v1.png",
+      "href": "https://api.whatsapp.com/send?phone=5548999053840&text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20do%20Desafio3",
+      "width": "70px"
+    }
+  },
+  "flex-layout.row#footer-mobile":{
+    "children": [
+      "logo#footer1-mobile",
+      "logo#footer2-mobile",
+      "logo#footer3-mobile",
+      "logo#footer4-mobile"
+    ]
+  },
+  "logo#footer1-mobile": {
+    "props": {
+      "url": "https://img.icons8.com/windows/452/joining-queue.png",
+      "href": "https://hujaio--hiringcoders2021.myvtex.com/login",
+      "width": "35px"
+    }
+  },
+  "logo#footer2-mobile": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/1017/1017553.png",
+      "href": "https://hujaio--hiringcoders2021.myvtex.com",
+      "width": "35px"
+    }
+  },
+  "logo#footer3-mobile": {
+    "props": {
+      "url": "https://image.flaticon.com/icons/png/512/126/126510.png",
+      "href": "https://hujaio--hiringcoders2021.myvtex.com/checkout/#/cart",
+      "width": "35px"
+    }
+  },
+  "logo#footer4-mobile": {
+    "props": {
+      "url": "https://img.icons8.com/ios/452/whatsapp--v1.png",
+      "href": "https://api.whatsapp.com/send?phone=5548999053840&text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20do%20Desafio3",
+      "width": "35px"
+    }
+  }
+}
